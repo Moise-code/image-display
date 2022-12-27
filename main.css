@@ -34,8 +34,17 @@ body{
     color: red;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
+    transition: ease-in-out .5s;
+    background-color: none;
 }
 
+.logo:hover{
+   color: whitesmoke;
+   letter-spacing: 4px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 38px red;
+ 
+}
 .navigation-list {
     color: white;
     list-style: none;
