@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Rubik+Glitch&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body{
+    background-color: black;
+}
+.navigation {
+    background-color: black;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 42px 0px white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
